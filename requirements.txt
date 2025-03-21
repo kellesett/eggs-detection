@@ -1,6 +1,6 @@
 ultralytics
 torch
-opencv-python
+opencv-python-headless
 numpy
 matplotlib
 pillow
