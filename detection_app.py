@@ -1,12 +1,11 @@
+import torch
+torch.classes.__path__ = []
 import streamlit as st
 from PIL import Image
 import os
 import sys
 from models import WrapperYOLO, MorphBasedDetector, SegmentBaseDetector
-import torch
 
-
-torch.classes.__path__ = []
 
 IMAGES_PATH = os.path.join('.', 'eggs')
 IMAGE_EXTENSIONS = ('.png', '.jpg', '.jpeg', '.gif', '.bmp')
