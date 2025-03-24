@@ -1,6 +1,6 @@
-ultralytics
-torch
 opencv-python-headless
+torch
 numpy
 matplotlib
 pillow
+ultralytics
